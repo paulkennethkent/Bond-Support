@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    padding-bottom: 60px;   
+    padding-bottom: 60px;
 }
 
 #wrapper {
@@ -34,7 +34,7 @@ body {
     left: 150px;
     width: 0;
     min-height: 390px;
-    height: auto; 
+    height: auto;
     margin-left: -150px;
     background: #EEE;
     margin-top: 2%;
@@ -69,7 +69,7 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 .sidebar-nav li {
@@ -87,7 +87,7 @@ body {
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: $darkGrey;
-    background: $lightGreen;
+    background: $blue;
 }
 
 .sidebar-nav li a:active,
@@ -104,16 +104,16 @@ body {
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: $lightGreen;
+    color: $blue;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-    color: $lightGreen;
+    color: $blue;
     background: none;
 }
 
 .navbar {
-    min-height: 103px; 
+    min-height: 103px;
     position: static;
     /*margin: 12px;*/
     /*padding: 20px;*/
@@ -121,7 +121,7 @@ body {
 
 
 .subnav {
-    padding-left: 150px; 
+    padding-left: 150px;
     width: 320px;
     display: none;
     margin-top: -30px;
@@ -159,13 +159,13 @@ body {
 #topnavlist {
     margin-top: 20px;
     li.active > a {
-        background-color: $lightGreen;
-      }  
+        background-color: $blue;
+      }
     a:hover {
-        background-color: $lightGreen;
+        background-color: $blue;
     }
     a:focus {
-        background-color: $lightGreen;
+        background-color: $blue;
     }
   }
 
@@ -184,7 +184,7 @@ body {
 
 /*Stacked nav*/
 li.active  {
-    background-color:$lightGreen ;
+    background-color:$blue ;
 }
 
 
@@ -220,5 +220,5 @@ li.active  {
     bottom: 0px;
     background-color: $smokeGrey;
     display: block;
-    
+
 }
